@@ -1,0 +1,83 @@
+Question:
+
+Write a program to to print all positive numbers in the given array.
+NOTE:
+The array will have negative numbers, negative numbers should be ignored while printing the output.
+
+Input Description:
+
+The first contains a positive integer n denoting the length of the array, 1<=n<=20. The second line contains an array of n positive integers, 1<=arr[i]<=10^4.
+
+Output Description:
+
+Print all the positive numbers in the given array.
+
+Hints:
+
+Traverse and check whether the elements of the array are positive or negative.
+
+Sample Input:
+
+8
+5 -6 -3 4 2 -6 1 -7
+
+Sample Output:
+
+5 4 2 1
+
+Explanation:
+
+The positive numbers in the given array are 5 4 2 1.
+
+Testcase 1:
+
+Input:
+
+22
+3 33 -56 78 -3 -12 45 98 -3 22 -56 3 78 90 -43 -11 -25 -4 51 6 -12 34
+
+Output:
+
+3 33 78 45 98 22 3 78 90 51 6 34
+
+Testcase 2:
+
+Input:
+
+42
+78 -67 22 43 54 -66 87 67 23 -45 78 67 22 -43 -54 -66 -87 67 23 -45 68 11 25 45 55 -67 11 73 67 34 56 -68 11 25 45 -55 67 11 73 67 34 -56
+
+Output:
+
+78 22 43 54 87 67 23 78 67 22 67 23 68 11 25 45 55 11 73 67 34 56 11 25 45 67 11 73 67 34
+
+Testcase 3:
+
+Input:
+
+30
+3 33 -56 78 3 12 45 98 3 -22 56 3 78 90 43 11 25 -4 51 6 3 22 56 3 78 90 -43 11 12 -34
+
+Ouput:
+
+3 33 78 3 12 45 98 3 56 3 78 90 43 11 25 51 6 3 22 56 3 78 90 11 12 
+
+Testcase 4:
+
+Input:
+
+24
+93 -22 6 45 -23 56 79 99 54 2 4 -51 6 12 34 3 43 2 5 34 78 66 45 -78
+
+Output:
+
+93 6 45 56 79 99 54 2 4 6 12 34 3 43 2 5 34 78 66 45 
+
+Testcase 5:
+
+40
+2112 5126 3378 5651 6722 1903 -1125 1173 1251 1334 4456 -5111 2112 4445 1227 -2112 5126 3378 5651 -6722 1903 1125 1173 1251 1334 -4456 5111 2112 4445 -1227 7457 2112 5144 -3443 9722 7457 -2112 -5144 -3443 9722
+
+Output:
+
+2112 5126 3378 5651 6722 1903 1173 1251 1334 4456 2112 4445 1227 5126 3378 5651 1903 1125 1173 1251 1334 5111 2112 4445 7457 2112 5144 9722 7457 9722
