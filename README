@@ -2,7 +2,7 @@ Question:
 
 Write a program to to print all positive numbers in the given array.
 NOTE:
-The array will have negative numbers, negative numbers should be ignored while printing the output.
+The array will have negative numbers. The output should be printed by ignoring all the negative numbers in the array.
 
 Input Description:
 
